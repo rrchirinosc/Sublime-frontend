@@ -1,0 +1,458 @@
+﻿li {
+    list-style-type: none;
+}
+
+.navbar-nav > li > a.top-button {
+    color: #0060a9;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.navbar-nav > li > a.top-button i.fas {
+    font-size: 28px;
+    padding:8px 0;
+}
+
+    .navbar-nav > li > a.top-button:hover {
+        color: #5eb145;
+        background-color:transparent;
+    }
+
+    .top-button > span {
+        display: block;
+    }
+
+.left-divider {
+    border-left: solid 1px #c7c1c1;
+    padding:15px 0;
+}
+
+#company-logo
+{
+    height:36px;
+    margin:5px 60px;
+}
+
+.company-menu {
+    position: relative;
+    background-color: #0060a9;
+    display:flex;
+    /*padding: 0 15%;*/
+    justify-content: center;
+}
+
+    
+    .dropdown .company-submenu {
+        position: static;
+    }
+
+.company-submenu .dropdown-menu {
+    left: auto;
+}
+
+
+.dropdown.company-submenu .dropdown-menu {
+    left: 0;
+    right: 0;
+}
+
+    .company-submenu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #337fba;
+        color: #fff;
+        height: 100%;
+        font-size: 16px;
+        
+    }
+
+        .menu-divider:before {
+            height: 50%;
+            top: 25%;
+            border-left: 1px solid rgba(51,127,186,.5);
+            border-right: 1px solid rgba(255,255,255,0);
+        }
+
+.submenu-divider {
+    height: 50%;
+    top: 25%;
+    border-left: 1px solid rgba(255,255,255,0.5);
+    /*border-right: 1px solid rgba(255,255,255,0.7);*/
+}
+
+
+    .company-submenu > li > a:hover {
+        color: #f1c40f        
+    }
+
+.menu-btn {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    padding: 20px 0 15px 0;
+}
+
+    .menu-btn a {
+        padding: 20px 30px 15px 30px;
+        color: #fff;
+    }
+
+    .menu-btn:hover, .menu-btn:focus {
+        background-color: #337fba;
+        border: none;
+    }
+
+    .menu-btn .fas{
+        font-size:18px;
+        padding:0 3px;
+        vertical-align:3px;
+    }
+
+    .company-banner {
+        background-image: url(../images/sandemar.jpg);
+        height: 410px;
+        background-size: cover;
+    }
+
+
+.inner-banner-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    color: #ffffff;
+    font-size:20px;
+}
+
+.help-text {
+    height: 52px;
+}
+
+.oval-button {
+    background-color: #5eb145;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size:18px;
+    font-weight:bold;
+}
+
+#read-more-btn {
+    width: 200px;
+}
+
+#become-member-btn {
+    width: 300px;
+    margin: auto;    
+}
+
+.company-table {
+    background-color: #5eb145;
+    color: #ebf5e8;
+    font-size: 16px;
+    padding: 10px 100px;
+}
+
+
+    .company-table-list-title {
+    font-size: 20px;
+    font-weight:700;
+    padding: 5px 5px 5px 0;
+    border-bottom: solid 4px rgba(255, 255, 255, 0.6);
+    margin-bottom: 15px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.company-contact-region {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:80%;
+    padding:10px;
+}
+
+.company-table-list-items {
+    margin-right: 0;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.company-table-list-items > li > a {
+   margin-right: 10px;
+   color: #fff;
+}
+
+.company-related {
+    background-color: #f2f2f2;
+    color:#ececec;
+}
+
+.company-footer {
+    display: flex;
+    background-color: #4e9538;
+    padding: 20px 100px;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.company-info {
+    display:flex;
+    justify-content:space-between;
+}
+
+.company-info-site {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .company-info-site > a {
+        color: #ffffff;
+    }
+
+.bullet-separator {
+    font-size: 4px;
+    padding: 7px 5px;
+}
+
+
+.bullet-separator-gt {
+    font-size: 10px;
+    padding: 4px 5px;
+}
+
+.company-membership {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+.company-motto {
+    text-align:center;
+    color:#000;
+    padding:0 20%;  
+    margin-bottom:32px;
+}
+
+#company-motto-title {
+    font-size:24px;
+    font-weight: 600;
+    margin-bottom:30px;
+}
+
+
+#company-motto-content {
+    font-size: 20px;
+    font-weight:500;
+}
+
+    .company-panels {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 7%;
+    }
+
+.company-panel {
+    margin: 30px 20px;
+    width: 33%;
+    border-radius: 0;
+    border: none;
+}
+
+.company-panel-heading {
+    font-size: 20px;
+    padding:25px;
+    border-radius:0;
+    font-size:20px;
+    font-weight: 600;
+}
+
+.company-panel-blurb {
+    display: flex;
+    padding: 10px 0;
+    width: 80%;
+}
+
+.company-panel-blurb-notice div {
+    font-size: 20px;
+    margin-bottom:20px;
+}
+
+.company-panel-blurb-notice span {
+    color: #000;
+    font-weight: 500;
+}
+
+.company-panel-blurb:not(:last-child) {
+    border-bottom: solid 2px #ececec;
+}
+
+.company-panel-blurb-calendar {
+    padding:0 10px 15px 10px;
+}
+
+.company-panel-blurb-calendar-top {
+    background-color: #f39c12;
+    width: 55px;
+    height: 6px;
+    margin-bottom: 2px;
+}
+
+.company-panel-blurb-calendar-bottom {
+    background-color: #f1c40f;
+    color: #fff;
+    width: 55px;
+    height: 50px;
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+.company-panel-blurb-calendar-day {
+    font-size: 20px;
+}
+
+.company-panel-blurb-calendar-month {
+}
+
+.company-panel-blurb-contents {
+    color: #0362aa;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+    .company-panel-blurb-date {
+        color: #c2bdbd;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+.company-panel-top {
+    height:75%;
+}
+
+.company-panel-bottom {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    border-top: solid 1px rgba(194, 189, 189, 0.3);
+}
+
+.company-panel-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    height: 80%;
+}
+
+.company-banner-offerings {
+    display: flex;
+    font-size: 24px;
+    color: #0362aa;
+    justify-content: space-around;
+    padding: 20px 20%;
+}
+
+    .company-banner-offerings .fas {
+        padding-right: 5px;
+    }
+
+
+    .company-banner-offerings-item {
+        font-family: 'Permanent Marker';
+    }
+
+.company-offering-page-links {
+    display:flex;
+    padding:0 10%;
+    position:relative;
+    top:-62px;
+}
+
+.company-page-link-box {
+    background-color: #fff;
+    color: #000;
+    width: 25%;
+    height: 124px;
+    text-align: center;
+    padding: 10px 20px;
+    background-image: none;
+    border-bottom: solid 8px rgba(255, 255, 255, 0);
+}
+    .company-page-link {
+        color: black;
+    }
+
+
+
+    .company-page-link-box:hover {
+        border-bottom: solid 8px #5eb145;           
+    }
+
+.company-page-link-box i {
+    color: transparent;
+    display:none;
+    height:0;
+}
+
+    .company-page-link-box:hover i {
+        display:block;
+        color: #fff;
+        position: relative;
+        top: -36px;
+        left: 0;
+        font-size: 40px;
+    }
+
+
+    .company-page-link-box h4 {
+        color: #0362aa;
+        font-weight:700;
+    }
+
+.company-page-link-box:hover h4 {
+    color: #000;
+    font-weight: 700;
+}
+
+
+.row .dropdown, 
+.row .company-menu {
+    position: static;
+}
+
+.row .dropdown-menu {
+    left: auto;
+}
+
+.row .dropdown-menu {
+    left: 0;
+    right: 0;
+}
+
+.row.company-menu {
+    margin-bottom: 0;
+}
+
+.submenu-container {
+    height: 45px;
+}
+
+.dropdown-menu.submenu-container {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}

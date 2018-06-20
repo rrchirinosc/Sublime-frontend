@@ -1,0 +1,329 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    @*<div class="company-menu row">
+        <div class="menu-btn">
+            <button type="button">
+                Medlemsstöd
+            </button>
+        </div>
+        <div class="vertical-divider menu-divider"></div>
+        <div class="menu-btn">
+            <button type="button" class="dropdown dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Utbilding <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu submenu-container" role="menu">
+                <li>
+                    <ul class="company-submenu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class="vertical-divider menu-divider"></div>
+        <div class="menu-btn">
+            <button type="button" class="dropdown dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Medlemskap <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu submenu-container" role="menu">
+                <li>
+                    <ul class="company-submenu">
+                        <li><a href="#">Medlemförmåner</a></li>
+                        <li><a href="#">Bli medlem</a></li>
+                        <li><a href="#">Vad kostar det?</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Medlemintyg</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="vertical-divider menu-divider"></div>
+        <div class="menu-btn">
+            <button type="button">
+                Om oss
+            </button>
+            <div class="vertical-divider menu-divider"></div>
+            <button type="button" class="menu-btn">
+                <i class="fas fa-search"></i>Sök
+            </button>
+        </div>*@
+
+        <div class="company-menu row">
+            <div class="menu-btn">
+                <a href="#">Medlemsstöd</a>                
+            </div>
+            <div class="vertical-divider menu-divider"></div>
+            <div class="dropdown menu-btn">
+                <a href="#" data-toggle="dropdown"class="dropdown-toggle" aria-expanded="false">Utbilding<span class="caret"></span></a>
+                <div class="dropdown-menu submenu-container">
+                    <ul class="company-submenu">
+                        <li><a href="#">Utbilding 1</a></li>
+                        <li class="vertical-divider submenu-divider"></li>
+                        <li><a href="#">Utbilding 2</a></li>
+                        <li class="vertical-divider submenu-divider"></li>
+                        <li><a href="#">Utbilding 3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vertical-divider menu-divider"></div>
+            <div class="dropdown menu-btn">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">Medlemskap  <b class="caret"></b></a>
+                <div class="dropdown-menu submenu-container">
+                    <ul class="company-submenu">
+                        <li><a href="#">Medlemförmåner</a></li>
+                        <li class="vertical-divider submenu-divider"></li>
+                        <li><a href="#">Bli medlem</a></li>
+                        <li class="vertical-divider submenu-divider"></li>
+                        <li><a href="#">Vad kostar det?</a></li>
+                        <li class="vertical-divider submenu-divider"></li>
+                        <li><a href="#">Medlemintyg</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vertical-divider menu-divider"></div>
+            <div class="menu-btn">
+                <a href="#">Om oss</a>
+            </div>
+            <div class="vertical-divider menu-divider"></div>
+            <div class="menu-btn">
+                <a href="#"><i class="fas fa-search"></i> Sök</a>
+            </div>
+        </div>
+
+        <div class="company-banner row">
+            <div class="inner-banner-content">
+                <span><img src="~/images/helptext.svg" class="help-text" /></span>
+                <span>Vill du bli en maskinförare?</span>
+                <span>Ar du oense med maskinleverantör?</span>
+                <span>Hur hög lön bör jag sätta?</span>
+                <div>
+                    <button class="oval-button" id="read-more-btn">Läs mer</button>
+                </div>
+            </div>
+        </div>
+        <div class="company-related row">
+            <div class="company-offering-page-links">
+                <div class="company-page-link-box">
+                    <i class="fas fa-caret-up"></i>
+                    <a class="company-page-link" href="#">
+                        <h4>Avtal 2016</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </a>
+                </div>
+                <div class="vertical-divider"></div>
+                <div class="company-page-link-box">
+                    <i class="fas fa-caret-up"></i>
+                    <a class="company-page-link" href="#">
+                        <h4>Guiden</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </a>
+                </div>
+                <div class="vertical-divider"></div>
+                <div class="company-page-link-box">
+                    <i class="fas fa-caret-up"></i>
+                    <a class="company-page-link" href="#">
+                        <h4>Vårens kurser</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </a>
+                </div>
+                <div class="vertical-divider"></div>
+                <div class="company-page-link-box">
+                    <i class="fas fa-caret-up"></i>
+                    <a class="company-page-link" href="#">
+                        <h4>Experten tipsar</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="company-membership">
+                <div class="company-motto">
+                    <div id="company-motto-title">Vi är Lorem ipsum för landets Lorem ipsum</div>
+                    <span id="company-motto-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <a href="#">Läs mer ></a>
+                    </span>
+                </div>
+                <div class="company-banner-offerings">
+                    <div class="company-banner-offerings-item"><i class="fas fa-check-circle"></i>Avtal och förhandling</div>
+                    <div class="company-banner-offerings-item"><i class="fas fa-check-circle"></i>Stöd i branschfrågor</div>
+                    <div class="company-banner-offerings-item"><i class="fas fa-check-circle"></i>Medlemsrabatter</div>
+                </div>
+                <button class="oval-button" id="become-member-btn">Jag vill bli medlem</button>
+            </div>
+            <div class="company-panels">
+                <div class="panel panel-primary company-panel">
+                    <div class="panel-heading company-panel-heading">
+                        Aktuellt
+                    </div>
+                    <div class="company-panel-content">
+                        <div class="company-panel-top">
+                            <div class="company-panel-blurb">
+                                <div class="company-panel-blurb-contents">
+                                    <div>Skanska bigger centrum i Jyväskylä</div>
+                                    <div class="company-panel-blurb-date">I går</div>
+                                </div>
+                            </div>
+                            <div class="company-panel-blurb">
+                                <div class="company-panel-blurb-contents">
+                                    <div>Krav på motorsågskort lorem ipsum från årskiftet</div>
+                                    <div class="company-panel-blurb-date">10 february 2016</div>
+                                </div>
+                            </div>
+                            <div class="company-panel-blurb">
+                                <div class="company-panel-blurb-contents">
+                                    <div>Var tredje maskin såld i fjol var en Volvo</div>
+                                    <div class="company-panel-blurb-date">23 january 2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="company-panel-bottom">
+                            <a href="#">&gt; Alla nyheter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-primary company-panel">
+                    <div class="panel-heading company-panel-heading">
+                        Tips
+                    </div>
+                    <div class="company-panel-content">
+                        <div class="company-panel-top">
+                            <div class="company-panel-blurb">
+                                <div class="company-panel-blurb-contents">
+                                    <div class="company-panel-blurb-notice">
+                                        <div>Höga böter om du saknar personalliggare</div>
+                                        <span>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="company-panel-bottom">
+                            <a href="#">&gt; Fler tips i vår guide</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-primary company-panel">
+                    <div class="panel-heading company-panel-heading">
+                        På gång
+                    </div>
+                    <div class="company-panel-content">
+                        <div class="company-panel-top">
+                            <div class="company-panel-blurb">
+                                <div class="company-panel-blurb-calendar">
+                                    <div class="company-panel-blurb-calendar-top"></div>
+                                    <div class="company-panel-blurb-calendar-bottom">
+                                        <div class="company-panel-blurb-calendar-day">20</div>
+                                        <div class="company-panel-blurb-calendar-month">mars</div>
+                                    </div>
+                                </div>
+                                <div class="company-panel-blurb-contents">
+                                    <div>Öppet hus i Ingelstad</div>
+                                    <div class="company-panel-blurb-date">I går</div>
+                                </div>
+                            </div>
+                            <div class="company-panel-blurb">
+                                <div class="company-panel-blurb-calendar">
+                                    <div class="company-panel-blurb-calendar-top"></div>
+                                    <div class="company-panel-blurb-calendar-bottom">
+                                        <div class="company-panel-blurb-calendar-day">8</div>
+                                        <div class="company-panel-blurb-calendar-month">feb</div>
+                                    </div>
+                                </div>
+                                <div class="company-panel-blurb-contents">
+                                    <div>Maskinägarträff med elithockey i Karlstad</div>
+                                    <div class="company-panel-blurb-date">10 february 2016</div>
+                                </div>
+                            </div>
+                            <div class="company-panel-blurb">
+                                <div class="company-panel-blurb-calendar">
+                                    <div class="company-panel-blurb-calendar-top"></div>
+                                    <div class="company-panel-blurb-calendar-bottom">
+                                        <div class="company-panel-blurb-calendar-day">30</div>
+                                        <div class="company-panel-blurb-calendar-month">dec</div>
+                                    </div>
+                                </div>
+                                <div class="company-panel-blurb-contents">
+                                    <div>På gång Ahlsellträff i Skövde</div>
+                                    <div class="company-panel-blurb-date">23 january 2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="company-panel-bottom">
+                            <a href="#">&gt; Alla kalenderhändelser</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="company-table row">
+            <div class="col-md-4">
+                <div class="company-table-list-title">Kontakta oss</div>
+
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle company-contact-region" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Välj region
+                        <span class="caret"></span>
+                    </button>
+                </div>
+                <ul class="company-table-list-items">
+                    <li><a href="#">&gt; Fler kontakt uppgifter</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="company-table-list-title">Hitta snabbt</div>
+                <ul class="company-table-list-items">
+                    <li><a href="#">&gt; Arbetsgivar guiden</a></li>
+                    <li><a href="#">&gt; Lorem ipsum dolor sit amet</a></li>
+                    <li><a href="#">&gt; Consectetur adipiscing elit</a></li>
+                    <li><a href="#">&gt; Sed do eiusmod tempor</a></li>
+                    <li><a href="#">&gt; I ncididunt ut labo</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="company-table-list-title">Nyhetbrev</div>
+                <ul class="company-table-list-items">
+                    <li><a href="#">&gt; Anmäl did till vårt månatliga nyhetsbrev</a></li>
+                    <li><a href="#">&gt; Fördelar med vårt nyhetersbrev</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="company-footer row">
+            <div class="company-info">
+                <span>Företagslogo Sverige AB</span>
+                <i class="fas fa-circle bullet-separator"></i>
+                <span>Box 111, 111 22 Stockholm</span>
+                <i class="fas fa-circle bullet-separator"></i>
+                <span>Besök: Mälartorget 19</span>
+                <i class="fas fa-circle bullet-separator"></i>
+                <span>Tel: 08-111 22 33</span>
+                <i class="fas fa-circle bullet-separator"></i>
+                <span>info@foretasgslogo.se</span>
+            </div>
+            <div class="company-info-site">
+                <i class="fas fa-greater-than bullet-separator-gt"></i>
+                <a href="#">Om cookies</a>
+                <i class="fas fa-greater-than bullet-separator-gt"></i>
+                <a href="#">Webbplatskarta</a>
+            </div>
+        </div>
+    </div>
+
